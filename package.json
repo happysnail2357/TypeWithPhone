@@ -1,0 +1,23 @@
+{
+  "name": "typewithphone",
+  "author": "Paul Puhnaty",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1"
+  }
+}
