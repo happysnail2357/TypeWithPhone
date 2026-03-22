@@ -1,0 +1,16 @@
+{
+  "name": "typewithphone-backend",
+  "author": "Paul Puhnaty",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch-path=./src index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
